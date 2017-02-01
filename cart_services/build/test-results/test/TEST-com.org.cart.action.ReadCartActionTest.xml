@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.org.cart.action.ReadCartActionTest" tests="4" skipped="1" failures="0" errors="0" timestamp="2016-12-03T06:54:46" hostname="Suryas-MacBook-Pro.local" time="0.369">
+  <properties/>
+  <testcase name="testWithLoginId" classname="com.org.cart.action.ReadCartActionTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testEmptyLoginId" classname="com.org.cart.action.ReadCartActionTest" time="0.148"/>
+  <testcase name="testNoLoginId" classname="com.org.cart.action.ReadCartActionTest" time="0.016"/>
+  <testcase name="testNoQuery" classname="com.org.cart.action.ReadCartActionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 02, 2016 10:54:46 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Dec 02, 2016 10:54:46 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Dec 02, 2016 10:54:46 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+Dec 02, 2016 10:54:46 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16ad5cc6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b381880, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3916d757, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a781d91]
+Dec 02, 2016 10:54:46 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@62c5bc4a: startup date [Fri Dec 02 22:54:46 PST 2016]; root of context hierarchy
+[Test worker] INFO com.org.cart.action.ReadCartAction - jkshfjs
+[Test worker] INFO com.org.cart.action.ReadCartActionTest - query {"name":" test"}
+]]></system-err>
+</testsuite>
